@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}}
+
+{% block body%}
+    <div class="ui list">
+    {% for article in articles %}
+        <div class="item">
+            <i class="file alternate outline icon"></i>
+
+            <div class="content">
+                <a href='/article/{{article.id}}' class="header">{{article.title}}</a>
+
+                <div class="description">{{article.title}}</div>
+                <p>{{article.created_at}}</p>
+
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}
