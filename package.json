@@ -1,0 +1,20 @@
+{
+  "name": "black_dalia",
+  "version": "0.0.0",
+  "description": "flask project for the weekend",
+  "main": "main.js",
+  "author": "AMCorvi <am@corvi.co>",
+  "license": "MIT",
+  "scripts": {
+   "commit": "git-cz"
+  },
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
